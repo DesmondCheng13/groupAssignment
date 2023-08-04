@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    background-image: url(../img/people-bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo img {
+    width: 244px;
+    margin-top: -10px;
+    padding-bottom: 50px;
+}
+
+.sideBtn {
+    display: flex;
+    float: right;
+    padding: 20px;
+}
+
+.sidebar {
+    font-family: 'Kablammo', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 100px;
+    transition: 0.5s;
+}
+
+.sidebar div a:hover {
+    color: peru;
+}
+
+.sidebar a {
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 8px 8px 40px 55px;
+    font-size: 18px;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    color: peru;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.openbtn {
+    margin-top: -5px;
+    font-size: 30px;
+    cursor: pointer;
+    background-color: transparent;
+    color: whitesmoke;
+    padding: 10px 15px;
+    border: none;
+}
+
+.openbtn:hover {
+    color: peru;
+}
+
+.people-container-1 {
+    display: flex;
+}
+
+.subnav {
+    font-family: 'Kablammo', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    color: whitesmoke;
+    padding-left: 75px;
+}
+
+.subnav-title {
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 5px solid whitesmoke;
+    width: 45px;
+    padding-bottom: 20px;
+}
+
+.subnav-links {
+    display: grid;
+    padding-top: 50px;
+    gap: 30px;
+}
+
+.subnav-links a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+.subnav-links a:focus {
+    color: blue !important;
+}
+
+.subnav-links a:hover {
+    color: rgb(203, 54, 84);
+}
+
+#people-column-2 {
+    margin-top: 80px;
+    margin-left: 75px;
+}
+
+#people-name-1 {
+    font-family: 'Kablammo', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    color: whitesmoke;
+    font-size: 32px;
+    font-weight: bold;
+    padding-bottom: 25px;
+}
+
+#people-column-2 img {
+    width: 232px;
+    border-radius: 30px;
+    margin-left: -15px;
+}
+
+#people-column-3 {
+    margin-top: 160px;
+    margin-left: 75px;
+}
+
+#people-desc {
+    font-family: 'Kablammo', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    color: whitesmoke;
+}

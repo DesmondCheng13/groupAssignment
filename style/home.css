@@ -1,0 +1,200 @@
+body {
+    margin: 0;
+    background-image: url(../img/home-bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.topnav {
+    display: flex;
+    float: right;
+    padding: 20px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    font-family: 'Kablammo', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    gap: 43px;
+    padding-right: 20px;
+}
+
+.navbar div a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.navbar div a:hover {
+    border-bottom: 5px solid peru;
+    color: peru;
+    padding-bottom: 5px;
+}
+
+.logo img {
+    width: 244px;
+    margin-top: -10px;
+}
+
+#home-content {
+    font-family: 'Kablammo', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    color: whitesmoke;
+    position: absolute;
+    bottom: 14%;
+    left: 4%;
+}
+
+#home-content-1 {
+    font-size: 36px;
+}
+
+#home-content-2 {
+    font-size: 42px;
+}
+
+#home-content-3 {
+    font-size: 36px;
+}
+
+.sidebar {
+    font-family: 'Kablammo', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 100px;
+    transition: 0.5s;
+}
+
+.sidebar div a:hover {
+    color: peru;
+}
+
+.sidebar a {
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 8px 8px 40px 55px;
+    font-size: 18px;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    color: peru;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.openbtn {
+    margin-top: -5px;
+    font-size: 30px;
+    cursor: pointer;
+    background-color: transparent;
+    color: whitesmoke;
+    padding: 10px 15px;
+    border: none;
+
+}
+
+.openbtn:hover {
+    color: peru;
+}
+
+.socialMenu {
+    display: flex;
+    gap: 30px;
+    position: fixed;
+    left: 4%;
+    bottom: 5%;
+}
+
+.social-links a img {
+    width: 40px;
+}
+
+
+/*Tablet view*/
+@media screen and (max-width: 820px) {
+
+    body {
+        background-size: auto;
+        background-position-x: center;
+    }
+
+    .navbar {
+        gap: 25px;
+        font-size: 16px;
+    }
+
+    .logo img {
+        width: 170px;
+        margin-top: -5px;
+        margin-left: -10px;
+    }
+
+    .sidebar {
+        font-size: 16px;
+    }
+
+    .sidebar a {
+        font-size: 16px;
+    }
+
+    #home-content {
+        bottom: 12%;
+    }
+}
+
+
+/*Mobile view*/
+@media screen and (max-width: 420px) {
+
+    body {
+        background-size: auto;
+        background-position-x: center;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    #home-content {
+        bottom: 15%;
+    }
+
+    #home-content-1 {
+        font-size: 30px;
+    }
+
+    #home-content-2 {
+        font-size: 36px;
+    }
+
+    #home-content-3 {
+        font-size: 30px;
+    }
+
+    .socialMenu {
+        bottom: 7%;
+        left: 4%;
+    }
+}
