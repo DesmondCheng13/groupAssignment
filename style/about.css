@@ -74,7 +74,7 @@ body {
     color: peru;
 }
 
-.people-container-1 {
+.about-container-1 {
     display: flex;
 }
 
@@ -131,7 +131,7 @@ body {
 
 #about-desc {
     margin-top: 10px;
-    padding: 20px 20px 20px 10px;
+    padding: 10px 20px 30px 20px;
     border-radius: 30px;
     max-width: 900px;
     background: rgba(0, 0, 0, 0.5);
@@ -147,15 +147,38 @@ body {
     padding: 0px 30px 0px 30px;
 }
 
-.people-reponsive {
-    display: block;
+#about-history-image {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#about-history-image p {
+    margin: auto;
+    margin-left: 23%;
+    font-family: 'Kablammo', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+}
+
+#about-history-image img {
+    transition: transform .2s;
+    width: 380px;
+    border-radius: 30px;
+}
+
+#about-history-image img:hover {
+    transform: scale(1.5);
 }
 
 /*Tablet view*/
 @media screen and (max-width: 820px) {
     body {
-        background-size: auto;
+        background-size: cover;
         background-position-x: center;
+        padding-bottom: 40px;
     }
 
     .logo img {
@@ -168,45 +191,43 @@ body {
         margin-left: 35px;
     }
 
-    .people-reponsive {
-        display: block;
-        margin-top: 30px;
+    .sideBtn {
+        position: sticky;
+        top: 0;
+        right: 0;
     }
 
-    #people-column-3 {
-        margin-top: 50px;
-        margin-left: 55px;
+    #about-desc {
+        max-width: 400px;
+        padding: 10px 20px 10px 20px;
+    }
+
+    #about-desc p {
+        font-size: 16px;
+    }
+
+    #about-history-image {
+        display: block;
+        margin-left: 15px;
+    }
+
+    #about-history-image p {
+        margin: auto;
+        margin-left: 27%;
+        margin-bottom: 20px;
+        font-size: 12px;
     }
 }
 
 /*Mobile view*/
 @media screen and (max-width: 420px) {
     body {
-        background-size: auto;
         background-position-x: center;
     }
 
-    .people-container-1 {
-        display: block;
-    }
-
-    #people-name-1 {
+    #about-title-1 {
         margin-left: -40px;
         font-size: 28px;
-    }
-
-    #people-column-2 img {
-        width: 350px;
-        margin-left: -45px;
-    }
-
-    #people-column-3 {
-        margin-left: 30px;
-    }
-
-    #people-desc {
-        max-width: 325px;
-        margin-bottom: 50px;
     }
 
     .sideBtn {
@@ -215,7 +236,24 @@ body {
         right: 0;
     }
 
-    #people-desc ul li {
-        font-size: 14px;
+    .about-container-1 {
+        display: block;
+    }
+
+    #about-desc {
+        margin-left: -45px;
+        margin-right: 30px;
+    }
+
+    #about-history-image img {
+        width: 290px;
+    }
+
+    #about-history-image p {
+        margin-left: 23%;
+    }
+
+    #about-history-image img:hover {
+        transform: scale(1.2);
     }
 }
