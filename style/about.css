@@ -1,8 +1,9 @@
 body {
     margin: 0;
-    background-image: url(../img/people-bg1.jpg);
+    background-image: url(../img/about-bg2.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: top;
 }
 
 .logo img {
@@ -113,12 +114,12 @@ body {
     color: brown;
 }
 
-#people-column-2 {
+#about-column-2 {
     margin-top: 80px;
     margin-left: 75px;
 }
 
-#people-name-1 {
+#about-title-1 {
     font-family: 'Kablammo', cursive;
     font-family: 'Lato', sans-serif;
     font-family: 'Ubuntu', sans-serif;
@@ -128,37 +129,26 @@ body {
     padding-bottom: 25px;
 }
 
-#people-column-2 img {
-    width: 232px;
-    border-radius: 30px;
-    margin-left: -15px;
-}
-
-#people-column-3 {
-    margin-top: 160px;
-    margin-left: 75px;
-}
-
-#people-desc {
-    background: rgba(0, 0, 0, 0.5);
-    margin-top: -18px;
+#about-desc {
+    margin-top: 10px;
     padding: 20px 20px 20px 10px;
     border-radius: 30px;
-    max-width: 500px;
-    max-height: 200px;
+    max-width: 900px;
+    background: rgba(0, 0, 0, 0.5);
 }
 
-#people-desc ul li {
-    margin-bottom: 30px;
+#about-desc p {
     font-family: 'Kablammo', cursive;
     font-family: 'Lato', sans-serif;
     font-family: 'Ubuntu', sans-serif;
     font-size: 18px;
     color: whitesmoke;
+    line-height: 35px;
+    padding: 0px 30px 0px 30px;
 }
 
 .people-reponsive {
-    display: flex;
+    display: block;
 }
 
 /*Tablet view*/

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>24 Seasons Drum SMKSK-Contact</title>
+    <link rel="stylesheet" href="style/contact.css">
+    <script src="javascript/contact.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/-icon" href="img/24-logo-white.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kablammo&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&family=Ubuntu:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="sideBtn">
+        <button class="openbtn" type="button" onclick="openNav()">☰</button>
+    </div>
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div><a href="home.html">HOME</a></div>
+        <div><a href="people-founder.html">PEOPLE</a></div>
+        <div><a href="#">ABOUT</a></div>
+        <div><a href="#">EVENT</a></div>
+        <div><a href="#">WHAT WE DO</a></div>
+        <div><a href="contact.html">CONTACT</a></div>
+    </div>
+
+    <div class="contact-container-1">
+        <div id="contact-column-1">
+            <div class="logo">
+                <a href="home.html"><img src="img/24-logo-white.png" alt="24-logo"></a>
+            </div>
+            <div class="subnav">
+                <div class="subnav-title">Contact</div>
+            </div>
+        </div>
+        <div class="contact-container-2">
+            <div id="contact-column-2">
+                <div id="contact-title-1">Contact us</div>
+                <form onsubmit="sendEmail(); reset(); return false;" id="contact-form">
+                    <input id="name" for="name" class="input-contact" type="text" required placeholder="YOUR NAME">
+                    <input id="email" for="email" class="input-contact" type="email" required placeholder="YOUR EMAIL">
+                    <input id="phone" for="phone" class="input-contact" type="tel" placeholder="YOUR CONTACT">
+                    <input id="message" for="message" class="input-contact" type="text" required placeholder="MESSAGE">
+                    <button id="send-btn" type="submit">SEND NOW</button>
+                </form>
+
+                <div class="socialMenu">
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/24SD.SMKSK" target="_blank">
+                            <img src="img/facebook-icon.png" alt="facebook-icon">
+                        </a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/24seasonsdrumsmksk/" target="_blank">
+                            <img src="img/instagram-icon.png" alt="instagram-icon">
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-info">
+                    <div class="contact-info-links">
+                        <div class="contact-links">
+                            <a href="tel:016-272-6301">
+                                <img src="img/phone-icon.png" alt="phone-icon">+(60)16&#8209;272&nbsp;6301&nbsp;(Mr.Lim)
+                            </a>
+                        </div>
+                    </div>
+                    <div class="contact-info-links">
+                        <div class="contact-links">
+                            <a href="mailto: smkskseasonsdrum@gmail.com">
+                                <img src="img/email-icon.png" alt="email-icon">smkskseasonsdrum@gmail.com
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
