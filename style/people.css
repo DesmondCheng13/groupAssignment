@@ -138,7 +138,7 @@ body {
 }
 
 #people-column-3 {
-    margin-top: 160px;
+    margin-top: 170px;
     margin-left: 75px;
 }
 
@@ -172,9 +172,9 @@ body {
     font-family: 'Kablammo', cursive;
     font-family: 'Lato', sans-serif;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     color: whitesmoke;
-    margin: 5px 0px 10px 0px;
+    margin: 10px 0px 10px 0px;
 }
 
 #scrollTopBtn {
