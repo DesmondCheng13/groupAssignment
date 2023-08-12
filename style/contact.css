@@ -201,3 +201,7 @@ body {
 .contact-info-links {
     margin-top: 20px;
 }
+
+.sidebar .closebtn {
+    top: 1%;
+}

@@ -1,28 +1,37 @@
 body {
     margin: 0;
-    background-image: url(../img/home-bg1.jpg);
+    background-image: url(../img/home-bg2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: 75% 75%;
 }
 
 .topnav {
     display: flex;
-    float: right;
-    padding: 20px;
+    justify-content: space-between;
+    padding: 0px 20px 0px 20px;
+    align-items: center;
+}
+
+.school-logo {
+    width: 310px;
 }
 
 .navbar {
     background: rgba(122, 121, 121, 0.5);
     display: flex;
+    justify-content: space-evenly;
     align-items: center;
     font-family: 'Kablammo', cursive;
     font-family: 'Lato', sans-serif;
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
-    font-size: 16px;
-    gap: 43px;
-    padding: 0px 50px 0px 50px;
+    font-size: 18px;
     border-radius: 30px;
+    margin-top: -30px;
+    margin-left: 30%;
+    width: 640px;
+    height: 57px;
 }
 
 .navbar div a {
@@ -37,8 +46,9 @@ body {
 }
 
 .logo img {
-    width: 244px;
-    margin-top: -10px;
+    margin-top: -30px;
+    position: relative;
+    left: 34%;
 }
 
 #home-content {
@@ -122,15 +132,22 @@ body {
 }
 
 .socialMenu {
+    background: rgba(122, 121, 121, 0.5);
+    border-radius: 30px;
+    padding: 10px 15px;
     display: flex;
-    gap: 30px;
-    position: fixed;
-    left: 4%;
-    bottom: 5%;
+    justify-content: space-between;
+    width: 120px;
+    margin-left: 45%;
+    margin-top: 30px;
 }
 
 .social-links a img {
-    width: 40px;
+    width: 35px;
+}
+
+.sidebar .closebtn {
+    top: 1%;
 }
 
 
@@ -140,17 +157,20 @@ body {
     body {
         background-size: auto;
         background-position-x: center;
+        background-position-y: 9%;
     }
 
     .navbar {
         gap: 25px;
         font-size: 16px;
+        margin-left: 12%;
     }
 
     .logo img {
-        width: 170px;
-        margin-top: -5px;
-        margin-left: -10px;
+        width: auto;
+        left: 21%;
+        margin-top: 6%;
+        margin-bottom: 5%;
     }
 
     .sidebar {
@@ -164,6 +184,14 @@ body {
     #home-content {
         bottom: 12%;
     }
+
+    .socialMenu {
+        margin-left: 40%;
+    }
+
+    .sidebar .closebtn {
+        top: 1%;
+    }
 }
 
 
@@ -173,10 +201,33 @@ body {
     body {
         background-size: auto;
         background-position-x: center;
+        background-position-y: 40%;
     }
 
     .navbar {
         display: none;
+    }
+
+    .topnav {
+        padding: 0px;
+    }
+
+    .logo img {
+        left: 1%;
+        width: 400px;
+        margin-bottom: 0%;
+    }
+
+    .openbtn {
+        font-size: 25px;
+    }
+
+    .sidebar .closebtn {
+        top: 1%;
+    }
+
+    .school-logo {
+        width: 230px;
     }
 
     #home-content {
@@ -196,7 +247,7 @@ body {
     }
 
     .socialMenu {
-        bottom: 7%;
-        left: 4%;
+        margin-top: 0px;
+        margin-left: 30%;
     }
 }
