@@ -4,10 +4,6 @@ html {
 
 body {
     margin: 0;
-    background-image: url(../img/about-bg2.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top;
 }
 
 .logo img {
@@ -69,7 +65,7 @@ body {
     font-size: 30px;
     cursor: pointer;
     background-color: transparent;
-    color: whitesmoke;
+    color: black;
     padding: 10px 15px;
     border: none;
 }
@@ -86,14 +82,14 @@ body {
     font-family: 'Kablammo', cursive;
     font-family: 'Lato', sans-serif;
     font-family: 'Ubuntu', sans-serif;
-    color: whitesmoke;
+    color: black;
     margin-left: 65px;
 }
 
 .subnav-title {
     font-size: 24px;
     font-weight: bold;
-    border-bottom: 5px solid whitesmoke;
+    border-bottom: 5px solid black;
     width: 120px;
     padding-bottom: 20px;
 }
@@ -101,12 +97,12 @@ body {
 .subnav-links {
     display: grid;
     padding-top: 50px;
-    gap: 30px;
+    gap: 15px;
 }
 
 .subnav-links a {
     text-decoration: none;
-    color: whitesmoke;
+    color: black;
     font-size: 18px;
 }
 
@@ -120,14 +116,13 @@ body {
 
 #about-column-2 {
     margin-top: 60px;
-    margin-left: 75px;
 }
 
 #about-title-1 {
     font-family: 'Kablammo', cursive;
     font-family: 'Lato', sans-serif;
     font-family: 'Ubuntu', sans-serif;
-    color: whitesmoke;
+    color: black;
     font-size: 32px;
     font-weight: bold;
     padding: 25px;
@@ -135,20 +130,28 @@ body {
 
 #about-desc {
     margin-bottom: 50px;
-    padding: 10px 20px 30px 20px;
     border-radius: 30px;
     max-width: 900px;
-    background: rgba(0, 0, 0, 0.5);
 }
 
 #about-desc p {
-    font-family: 'Kablammo', cursive;
-    font-family: 'Lato', sans-serif;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 18px;
-    color: whitesmoke;
+    font-family: 'Holtwood One SC', serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Varela', sans-serif;
+    font-size: 20px;
+    color: black;
     line-height: 35px;
     padding: 0px 30px 0px 30px;
+}
+
+#about-desc ul li {
+    font-family: 'Holtwood One SC', serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Varela', sans-serif;
+    font-size: 18px;
+    color: black;
+    line-height: 35px;
+    margin-left: 20px;
 }
 
 #about-history-image {
@@ -161,9 +164,9 @@ body {
 #about-history-image p {
     margin: auto;
     margin-left: 23%;
-    font-family: 'Kablammo', cursive;
-    font-family: 'Lato', sans-serif;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Holtwood One SC', serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Varela', sans-serif;
     font-size: 14px;
 }
 
@@ -228,9 +231,52 @@ body {
     font-weight: bold;
 }
 
-.about-divider {
-    border-bottom: 3px solid whitesmoke;
-    margin-bottom: 20px;
+.solar-terms {
+    width: 900px;
+}
+
+.timeline {
+    border-left: 3px solid black;
+    position: relative;
+    list-style: none;
+    margin-left: 25px;
+}
+
+.timeline .timeline-item {
+    position: relative;
+}
+
+.timeline .timeline-item:after {
+    position: absolute;
+    display: block;
+    top: 0;
+}
+
+.timeline .timeline-item:after {
+    background-color: black;
+    left: -46px;
+    border-radius: 50%;
+    height: 11px;
+    width: 11px;
+    content: "";
+}
+
+.timeline-margin {
+    margin-left: 0% !important;
+}
+
+.timeline-title {
+    font-size: 22px;
+}
+
+.custom-ul {
+    margin-bottom: 1rem;
+    margin-left: -20px;
+    font-family: 'Holtwood One SC', serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Varela', sans-serif;
+    font-size: 18px;
+    color: black;
 }
 
 /*Tablet view*/

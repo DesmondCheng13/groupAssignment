@@ -4,9 +4,8 @@ html {
 
 body {
     margin: 0;
-    background-image: url(../img/people-bg2.jpg);
+    background-image: url(../img/people-bg.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .logo img {
@@ -68,7 +67,7 @@ body {
     font-size: 30px;
     cursor: pointer;
     background-color: transparent;
-    color: whitesmoke;
+    color: black;
     padding: 10px 15px;
     border: none;
 }
@@ -85,14 +84,14 @@ body {
     font-family: 'Kablammo', cursive;
     font-family: 'Lato', sans-serif;
     font-family: 'Ubuntu', sans-serif;
-    color: whitesmoke;
+    color: black;
     margin-left: 65px;
 }
 
 .subnav-title {
     font-size: 24px;
     font-weight: bold;
-    border-bottom: 5px solid whitesmoke;
+    border-bottom: 5px solid black;
     width: 120px;
     padding-bottom: 20px;
 }
@@ -100,12 +99,12 @@ body {
 .subnav-links {
     display: grid;
     padding-top: 50px;
-    gap: 30px;
+    gap: 15px;
 }
 
 .subnav-links a {
     text-decoration: none;
-    color: whitesmoke;
+    color: black;
     font-size: 18px;
 }
 
@@ -126,7 +125,7 @@ body {
     font-family: 'Kablammo', cursive;
     font-family: 'Lato', sans-serif;
     font-family: 'Ubuntu', sans-serif;
-    color: whitesmoke;
+    color: black;
     font-size: 32px;
     font-weight: bold;
 }
@@ -143,21 +142,19 @@ body {
 }
 
 #people-desc {
-    background: rgba(0, 0, 0, 0.5);
     margin-top: -18px;
-    padding: 20px 25px 20px 25px;
     border-radius: 30px;
-    max-width: 500px;
+    max-width: 750px;
 }
 
 #people-desc {
     margin-bottom: 30px;
-    font-family: 'Kablammo', cursive;
-    font-family: 'Lato', sans-serif;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Holtwood One SC', serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Varela', sans-serif;
     font-size: 18px;
     line-height: 35px;
-    color: whitesmoke;
+    color: black;
 }
 
 .people-reponsive {
@@ -173,7 +170,8 @@ body {
     font-family: 'Lato', sans-serif;
     font-family: 'Ubuntu', sans-serif;
     font-size: 16px;
-    color: whitesmoke;
+    font-weight: bold;
+    color: black;
     margin: 10px 0px 10px 0px;
 }
 

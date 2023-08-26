@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    background-color: #222222;
 }
 
 .logo img {
@@ -62,7 +61,7 @@ body {
     font-size: 30px;
     cursor: pointer;
     background-color: transparent;
-    color: whitesmoke;
+    color: black;
     padding: 10px 15px;
     border: none;
 }
@@ -79,14 +78,14 @@ body {
     font-family: 'Kablammo', cursive;
     font-family: 'Lato', sans-serif;
     font-family: 'Ubuntu', sans-serif;
-    color: whitesmoke;
+    color: black;
     padding-left: 65px;
 }
 
 .subnav-title {
     font-size: 24px;
     font-weight: bold;
-    border-bottom: 5px solid whitesmoke;
+    border-bottom: 5px solid black;
     width: 120px;
     padding-bottom: 20px;
 }
@@ -99,7 +98,7 @@ body {
 
 .subnav-links a {
     text-decoration: none;
-    color: whitesmoke;
+    color: black;
     font-size: 18px;
 }
 
@@ -113,14 +112,14 @@ body {
 
 #contact-column-2 {
     margin-top: 90px;
-    margin-left: 200px;
+    margin-left: 100px;
 }
 
 #contact-title-1 {
     font-family: 'Kablammo', cursive;
     font-family: 'Lato', sans-serif;
     font-family: 'Ubuntu', sans-serif;
-    color: whitesmoke;
+    color: black;
     font-size: 32px;
     font-weight: bold;
     margin-bottom: 90px;
@@ -132,64 +131,50 @@ body {
 }
 
 .input-contact {
-    color: whitesmoke;
-    width: 650px;
+    color: black;
+    width: 570px;
     border: none;
-    font-family: 'Kablammo', cursive;
-    font-family: 'Lato', sans-serif;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Holtwood One SC', serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Varela', sans-serif;
     font-size: 16px;
     padding: 10px 15px 10px 15px;
-    border-bottom: 3px solid whitesmoke;
+    border-bottom: 3px solid black;
     margin-bottom: 25px;
     background-color: transparent;
 }
 
 #send-btn {
-    font-family: 'Kablammo', cursive;
-    font-family: 'Lato', sans-serif;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Holtwood One SC', serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Varela', sans-serif;
     font-size: 20px;
     font-weight: bold;
     background-color: #A52A2A;
-    color: white;
+    color: black;
     text-decoration: none;
     padding: 10px 50px;
     border: none;
     margin-top: 30px;
-    margin-left: 240px;
 }
 
 #send-btn:hover {
-    color: black;
+    color: whitesmoke;
 }
 
-.socialMenu {
-    display: flex;
-    gap: 30px;
-    position: absolute;
-    left: 47.5%;
-    bottom: 3%;
-}
-
-.social-links a img {
-    width: 40px;
-}
-
-.contact-info {
-    position: absolute;
-    right: 3%;
-    bottom: 3%;
+#contact-column-3 {
+    margin-top: 230px;
+    width: 1150px;
 }
 
 .contact-links a {
-    font-family: 'Kablammo', cursive;
-    font-family: 'Lato', sans-serif;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Holtwood One SC', serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Varela', sans-serif;
     font-size: 20px;
     text-decoration: none;
     margin-bottom: 20px;
-    color: whitesmoke;
+    color: black;
 }
 
 .contact-links a img {
@@ -198,8 +183,15 @@ body {
     vertical-align: middle;
 }
 
+.contact-links a {
+    font-family: 'Holtwood One SC', serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Varela', sans-serif;
+    font-size: 18px;
+}
+
 .contact-info-links {
-    margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 .sidebar .closebtn {

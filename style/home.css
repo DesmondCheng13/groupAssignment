@@ -7,14 +7,16 @@ body {
 }
 
 .topnav {
+    margin-top: 20px;
+    float: right;
     display: flex;
-    justify-content: space-between;
     padding: 0px 20px 0px 20px;
     align-items: center;
 }
 
 .school-logo {
     width: 310px;
+    height: 90px;
 }
 
 .navbar {
@@ -46,7 +48,7 @@ body {
 }
 
 .logo img {
-    margin-top: -30px;
+    margin-top: 30px;
     position: relative;
     left: 34%;
 }
@@ -138,8 +140,8 @@ body {
     display: flex;
     justify-content: space-between;
     width: 120px;
-    margin-left: 45%;
-    margin-top: 30px;
+    max-height: 35px;
+    margin-top: 15px;
 }
 
 .social-links a img {
@@ -148,6 +150,14 @@ body {
 
 .sidebar .closebtn {
     top: 1%;
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px 0px 15px;
+    position: relative;
+    bottom: -65px;
 }
 
 
@@ -191,6 +201,15 @@ body {
 
     .sidebar .closebtn {
         top: 1%;
+    }
+
+    .section {
+        display: block;
+    }
+
+    .school-logo {
+        margin-bottom: -560px;
+        margin-left: 490px;
     }
 }
 
@@ -247,7 +266,14 @@ body {
     }
 
     .socialMenu {
-        margin-top: 0px;
+        margin-top: 70px;
         margin-left: 30%;
+    }
+
+    .school-logo {
+        width: 150px;
+        margin-top: 260px;
+        margin-bottom: -50px;
+        margin-left: 165px;
     }
 }
