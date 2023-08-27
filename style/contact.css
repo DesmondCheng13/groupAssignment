@@ -197,3 +197,70 @@ body {
 .sidebar .closebtn {
     top: 1%;
 }
+
+/*Tablet view*/
+@media screen and (max-width: 820px) {
+    .sideBtn {
+        position: sticky;
+        top: 0;
+        right: 0;
+    }
+
+    #contact-title-1 {
+        margin-bottom: 30px;
+    }
+
+    .contact-container-1 {
+        display: block;
+    }
+
+    #contact-column-2 {
+        margin-left: 65px;
+    }
+
+    #contact-column-3 {
+        margin-top: 100px;
+        margin-left: 65px;
+    }
+
+    .input-contact {
+        width: 650px;
+    }
+
+    #send-btn {
+        margin-left: 31%;
+    }
+
+    #contact-column-3 {
+        width: 500px;
+    }
+}
+
+/*Mobile view*/
+@media screen and (max-width: 420px) {
+    #contact-column-2 {
+        margin-top: 40px;
+    }
+
+    #contact-column-3 {
+        width: 300px;
+    }
+
+    .input-contact {
+        width: 250px;
+    }
+
+    #send-btn {
+        font-size: 16px;
+        padding: 10px 25px;
+        margin-left: 20%;
+    }
+
+    .contact-links a img {
+        width: 25px;
+    }
+
+    .contact-links a {
+        font-size: 16px;
+    }
+}

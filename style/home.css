@@ -1,22 +1,23 @@
 body {
     margin: 0;
-    background-image: url(../img/home-bg2.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 75% 75%;
 }
 
 .topnav {
     margin-top: 20px;
-    float: right;
+    position: absolute;
+    right: 0;
     display: flex;
     padding: 0px 20px 0px 20px;
     align-items: center;
+    z-index: 2;
 }
 
 .school-logo {
     width: 310px;
     height: 90px;
+    position: absolute;
+    right: 0;
 }
 
 .navbar {
@@ -49,8 +50,9 @@ body {
 
 .logo img {
     margin-top: 30px;
-    position: relative;
+    position: absolute;
     left: 34%;
+    z-index: 1;
 }
 
 #home-content {
@@ -84,7 +86,7 @@ body {
     height: 100%;
     width: 0;
     position: fixed;
-    z-index: 1;
+    z-index: 2;
     top: 0;
     right: 0;
     background-color: #111;
@@ -139,9 +141,9 @@ body {
     padding: 10px 15px;
     display: flex;
     justify-content: space-between;
-    width: 120px;
-    max-height: 35px;
+    width: 140px;
     margin-top: 15px;
+    z-index: 1;
 }
 
 .social-links a img {
@@ -155,26 +157,30 @@ body {
 .section {
     display: flex;
     justify-content: space-between;
-    padding: 15px 15px 0px 15px;
-    position: relative;
-    bottom: -65px;
+    padding: 15px 25px 0px 25px;
+    margin-top: -110px;
+    z-index: 1;
+}
+
+.slide-img {
+    height: 707px;
+}
+
+.home-content {
+    position: absolute;
+    font-family: 'Kablammo', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    margin-top: -180px;
+    margin-left: 25%;
 }
 
 
 /*Tablet view*/
 @media screen and (max-width: 820px) {
-
-    body {
-        background-size: auto;
-        background-position-x: center;
-        background-position-y: 9%;
-    }
-
-    .navbar {
-        gap: 25px;
-        font-size: 16px;
-        margin-left: 12%;
-    }
 
     .logo img {
         width: auto;
@@ -195,37 +201,31 @@ body {
         bottom: 12%;
     }
 
-    .socialMenu {
-        margin-left: 40%;
-    }
-
     .sidebar .closebtn {
         top: 1%;
-    }
-
-    .section {
-        display: block;
     }
 
     .school-logo {
         margin-bottom: -560px;
         margin-left: 490px;
     }
+
+    .slide-img {
+        scale: 2.0;
+        height: 1180px;
+    }
+
+    .home-content {
+        top: 45%;
+        margin-top: 60px;
+        margin-left: 28%;
+        max-width: 500px;
+    }
 }
 
 
 /*Mobile view*/
 @media screen and (max-width: 420px) {
-
-    body {
-        background-size: auto;
-        background-position-x: center;
-        background-position-y: 40%;
-    }
-
-    .navbar {
-        display: none;
-    }
 
     .topnav {
         padding: 0px;
@@ -265,15 +265,18 @@ body {
         font-size: 30px;
     }
 
-    .socialMenu {
-        margin-top: 70px;
-        margin-left: 30%;
-    }
-
     .school-logo {
-        width: 150px;
-        margin-top: 260px;
         margin-bottom: -50px;
         margin-left: 165px;
+    }
+
+    .home-content {
+        font-size: 32px;
+        margin-left: 31%;
+    }
+
+    .slide-img {
+        scale: 1.2;
+        height: 900px;
     }
 }
