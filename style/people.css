@@ -288,4 +288,15 @@ body {
     #sub-title {
         margin-left: -40px;
     }
+
+    .subnav-links {
+        display: flex;
+        text-align: center;
+        margin-right: 40px;
+        justify-content: space-between;
+    }
+
+    #people-column-2 {
+        margin-top: 20px;
+    }
 }
