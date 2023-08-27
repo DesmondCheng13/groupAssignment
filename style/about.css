@@ -378,7 +378,7 @@ body {
     }
 
     #about-column-2 {
-        margin-top: 20px;
+        margin-top: 40px;
     }
 
     #about-title-1 {
@@ -389,6 +389,7 @@ body {
         position: sticky;
         top: 0;
         right: 0;
+        z-index: 1;
     }
 
     .about-container-1 {

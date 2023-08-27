@@ -218,8 +218,9 @@ body {
     .home-content {
         top: 45%;
         margin-top: 60px;
-        margin-left: 28%;
+        margin-left: 22%;
         max-width: 500px;
+        text-align: center;
     }
 }
 
@@ -272,7 +273,8 @@ body {
 
     .home-content {
         font-size: 32px;
-        margin-left: 31%;
+        margin-left: 25%;
+        width: 200px;
     }
 
     .slide-img {
