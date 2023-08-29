@@ -188,7 +188,7 @@ body {
         background-size: cover;
         background-position-x: center;
         padding-bottom: 40px;
-      
+        background-image: none;
     }
 
     .logo img {
@@ -234,6 +234,7 @@ body {
     body {
         background-position-x: center;
         background-image: none;
+        
     }
 
     #event-title-1 {
