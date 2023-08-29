@@ -229,6 +229,10 @@ body {
         margin-bottom: 20px;
         font-size: 12px;
     }
+    #event-column-2 iframe{
+        width: 400px;
+        height: 400px;
+    }
 }
 
 /*Mobile view*/

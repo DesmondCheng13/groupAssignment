@@ -298,6 +298,9 @@ body {
         margin-bottom: 20px;
         font-size: 12px;
     }
+    #carouselExampleIndicators{
+        margin-left: 100px;
+    }
 }
 
 /*Mobile view*/
