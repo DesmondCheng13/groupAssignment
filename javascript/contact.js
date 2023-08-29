@@ -30,9 +30,9 @@ function sendMessage() {
 function sendEmail() {
     Email.send({
         Host: "smtp.elasticemail.com",
-        Username: "cwxdesmond2002@gmail.com",
-        Password: "00B15FF1600F1C288D8004016F40B1EE9957",
-        To: 'cwxdesmond2002@gmail.com',
+        Username: "",
+        Password: "",
+        To: '',
         From: document.getElementById("email").value,
         Subject: "New message from 24 Seasons Drum SMKSK",
         Body: "Phone number: " + document.getElementById("phone").value + "<br>" + document.getElementById("message").value
