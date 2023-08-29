@@ -110,6 +110,7 @@ body {
 
 .sidebar a:hover {
     color: peru;
+    text-decoration: none;
 }
 
 .sidebar .closebtn {
