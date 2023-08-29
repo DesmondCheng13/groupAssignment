@@ -235,7 +235,7 @@ body {
 
     .logo img {
         left: 1%;
-        width: 400px;
+        width: 380px;
         margin-bottom: 0%;
     }
 
@@ -281,5 +281,15 @@ body {
     .slide-img {
         scale: 1.2;
         height: 900px;
+    }
+}
+
+@media screen and (min-height: 710px) {
+    .slide-img {
+        height: 100%;
+    }
+
+    .home-content {
+        margin-top: -380px;
     }
 }
