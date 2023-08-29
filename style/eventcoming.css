@@ -275,7 +275,6 @@ body {
     #event-coming-image img:hover {
         transform: scale(1.2);
     }
- 
     .subnav-links {
         display: flex;
         text-align: center;
@@ -286,8 +285,9 @@ body {
         font-family: 'Kablammo', cursive;
         font-family: 'Lato', sans-serif;
         font-family: 'Ubuntu', sans-serif;
-        font-size: 18px;
+        font-size: 16px;
     }
+ 
  
     
 }
