@@ -175,8 +175,13 @@ body {
     font-weight: bold;
     font-size: 40px;
     color: white;
-    margin-top: -430px;
+    margin-top: 550px;
     margin-left: 25%;
+    z-index: 1;
+}
+
+.mobile-view {
+    display: none;
 }
 
 
@@ -185,7 +190,7 @@ body {
 
     .logo img {
         width: auto;
-        left: 21%;
+        left: 20%;
         margin-top: 6%;
         margin-bottom: 5%;
     }
@@ -217,24 +222,109 @@ body {
     }
 
     .home-content {
-        top: 45%;
+        top: 55%;
         margin-top: 60px;
         margin-left: 22%;
         max-width: 500px;
         text-align: center;
+        z-index: 1;
+    }
+}
+
+@media screen and (max-width: 715px) {
+    .logo img {
+        left: 17%;
+    }
+
+    .home-content {
+        margin-left: 18%;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .logo img {
+        left: 14%;
+    }
+
+    .home-content {
+        margin-left: 15%;
     }
 }
 
 
 /*Mobile view*/
+@media screen and (max-width: 630px) {
+    .logo img {
+        left: 10%;
+    }
+
+    .home-content {
+        margin-left: 12%;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .logo img {
+        left: 6%;
+    }
+
+    .home-content {
+        margin-left: 7%;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .logo img {
+        width: 400px;
+        left: 13%;
+    }
+
+    .home-content {
+        margin-left: 7%;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .logo img {
+        width: 400px;
+        left: 8%;
+    }
+
+    .home-content {
+        margin-left: 28%;
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .logo img {
+        width: 400px;
+        left: 4%;
+    }
+
+    .home-content {
+        font-size: 32px;
+        margin-left: 26%;
+        width: 200px;
+    }
+}
+
 @media screen and (max-width: 420px) {
+
+    .desktop-view {
+        display: none;
+    }
+
+    .mobile-view {
+        display: block;
+    }
 
     .topnav {
         padding: 0px;
     }
 
     .logo img {
-        left: 1%;
+        left: 4%;
         width: 380px;
         margin-bottom: 0%;
     }
@@ -276,16 +366,11 @@ body {
         font-size: 32px;
         margin-left: 25%;
         width: 200px;
+        top: 45%;
     }
 
     .slide-img {
         scale: 1.2;
         height: 900px;
-    }
-}
-
-@media screen and (max-width: 820px) {
-    .home-content {
-        margin-top: 75px;
     }
 }
