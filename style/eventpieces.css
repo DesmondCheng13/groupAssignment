@@ -234,7 +234,62 @@ body {
         height: 400px;
     }
 }
+/* 600px */
+@media screen and (max-width: 620px) {
+    body {
+        background-position-x: center;
+        background-image: none;
+    }
 
+    #event-title-1 {
+        margin-left: -40px;
+        font-size: 28px;
+    }
+
+    .sideBtn {
+        position: sticky;
+        top: 0;
+        right: 0;
+    }
+
+    .event-container-1 {
+        display: block;
+    }
+
+    #event-desc {
+        margin-left: -45px;
+        margin-right: 30px;
+    }
+
+    #event-coming-image img {
+        width: 290px;
+    }
+
+    #event-coming-image p {
+        margin-left: 23%;
+    }
+
+    #event-coming-image img:hover {
+        transform: scale(1.2);
+    }
+    .subnav-links {
+        display: flex;
+        text-align: center;
+        margin-right: 40px;
+    }
+
+    .subnav-links a {
+        font-family: 'Kablammo', cursive;
+        font-family: 'Lato', sans-serif;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 16px;
+    }
+ 
+    #event-column-2 iframe{
+        width: 400px;
+        height: 350px;
+    }
+}  
 /*Mobile view*/
 @media screen and (max-width: 420px) {
     body {
