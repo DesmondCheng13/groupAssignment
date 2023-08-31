@@ -116,6 +116,7 @@ body {
 
 #about-column-2 {
     margin-top: 60px;
+    margin-left: 80px;
 }
 
 #about-title-1 {
@@ -368,6 +369,10 @@ body {
 
     .custom-ul {
         width: 300px;
+    }
+
+    #about-column-2 {
+        margin-left: 0px;
     }
 }
 

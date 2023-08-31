@@ -283,3 +283,9 @@ body {
         height: 900px;
     }
 }
+
+@media screen and (max-width: 820px) {
+    .home-content {
+        margin-top: 75px;
+    }
+}
